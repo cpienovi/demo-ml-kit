@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "829692109255",
+    "firebase_url": "https://d-day-ml.firebaseio.com",
+    "project_id": "d-day-ml",
+    "storage_bucket": "d-day-ml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829692109255:android:1d1670498e4e17fd",
+        "android_client_info": {
+          "package_name": "com.pienovi.dday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829692109255-lsjmngio5nd8vcr2i15moggqqos4rhhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pienovi.dday",
+            "certificate_hash": "e00fa07a73318f2f7518c5b8a6490e54e13961d3"
+          }
+        },
+        {
+          "client_id": "829692109255-1nkr7h1l6tr0nm01g980s8d87s90fbv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl4lDRFffRCEkVnwr8kehMjZVI1_j_KSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829692109255-1nkr7h1l6tr0nm01g980s8d87s90fbv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
