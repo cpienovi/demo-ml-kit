@@ -21,9 +21,40 @@
         android:id="@+id/switchCameraButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:src="@drawable/ic_switch_camera"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:useCompatPadding="true" />
+        app:useCompatPadding="false" />
+
+    <CheckBox
+        android:id="@+id/eyesCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option_eyes"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@id/mouthCheckBox"
+        app:layout_constraintStart_toStartOf="@id/mouthCheckBox" />
+
+    <CheckBox
+        android:id="@+id/mouthCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option_mouth"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@id/contoursCheckBox"
+        app:layout_constraintStart_toStartOf="@id/contoursCheckBox" />
+
+    <CheckBox
+        android:id="@+id/contoursCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/option_contours"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
